@@ -6,9 +6,9 @@ __author__ = "Sorin Sbarnea"
 __copyright__ = "Copyright 2010-2013, Sorin Sbarnea"
 __email__ = "sorin(dot)sbarnea(at)gmail.com"
 __status__ = "Production"
-from version import __version__, __date__
+from .version import __version__, __date__
 
-from confluence import Confluence
+from .confluence import Confluence
 
 __all__ = ['confluence']
 
