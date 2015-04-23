@@ -14,6 +14,6 @@ conf = Confluence("http://localhost:8080", "admin", "admin")
 conf.store_page_content("test", "test", "hello world!")
 ```
 
-Released under Simplified BSD License.
+Released under Simplified BSD License. Copyright (c) 2015, Samsung Electronics Co.,Ltd.
 
-P.S. Yeah, there are no tests now. Copyright (c) 2015, Samsung Electronics Co.,Ltd.
+P.S. Yeah, there are no tests now.
